@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-link {
+    color:rgb(181, 31, 36);
+    font-size: 32px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.anime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  
+.anime p {
+    text-align: center;
+    max-width: 80%; /* Adjust the width to your preference */
+    margin-bottom: 20px; /* Add some spacing between the video and paragraph */
+}
+  
+.anime video {
+    max-width: 100%; /* Ensure the video doesn't overflow its container */
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  
+.movie p {
+    text-align: center;
+    max-width: 80%; 
+    margin-bottom: 20px; /* Add some spacing between the video and paragraph */
+}
+  
+.movie video {
+    max-width: 100%;
+}
